@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Binomial Table C Program
 
 This project is a **C program** that precalculates binomial coefficients (C(n,k)) up to a given `MAX_N` and saves them to a binary file (`binomial.bin`). It also allows you to load the file later for instant access to any C(n,k) without recalculating.
@@ -17,7 +16,3 @@ This project is a **C program** that precalculates binomial coefficients (C(n,k)
 ```bash
 gcc -O3 binomial.c save_table.c -o save_table
 gcc -O3 binomial.c load_table.c -o load_table
-=======
-# binomial-table-c
-C program to precalculate binomial coefficients and save/load from a file.
->>>>>>> 2d1f916c7487e97bd887b3988d8b09a11b8ee17c
